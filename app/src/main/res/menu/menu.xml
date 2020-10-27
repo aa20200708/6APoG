@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/action_settings"
+    android:orderInCategory="100"
+    android:title="@string/action_settings"
+    app:showAsAction="never" />
+
+<item
+    android:id="@+id/font_up_setting"
+    android:orderInCategory="100"
+    android:title="@string/font_up_setting"
+    app:showAsAction="never" />
+
+<item
+    android:id="@+id/font_down_setting"
+    android:orderInCategory="100"
+    android:title="@string/font_down_setting"
+    app:showAsAction="never" />
+
+<item
+    android:id="@+id/night_day_setting"
+    android:icon="@android:drawable/stat_notify_sync"
+    android:orderInCategory="100"
+    android:title="@string/night_day_setting"
+    app:showAsAction="ifRoom" />
+
+</menu>
